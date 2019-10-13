@@ -1,3 +1,3 @@
 ![Optional Text](../master/img/GitLogo.png)
-# GitCurso - Lista de comandos
+# GitAjuda - Lista de comandos
 Lista de comandos do Git.
