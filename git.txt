@@ -21,4 +21,7 @@ git pull (traz alterações do diretório remoto para o local)
 git branch (lista branch)
 git branch nomeDaBranch (cria branch)
 git checkout -b nomeDaBranch (cria branch e muda pra branch criada)
+git push -u origin nomeDaBranch (envia branch local para o repositório remoto)
+git branch -d nomeDaBranch (remove a branch local, sem alterações pendentes)
+git branch -D nomeDaBranch (remove a branch local, mesmo com alterações pendentes)
 
