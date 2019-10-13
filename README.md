@@ -1,6 +1,6 @@
 ![Optional Text](../master/img/GitLogo.png)
 # GitAjuda - Lista de comandos
-Lista de comandos do Git.
+
 
 - git config --global user.name "Marcelo Maia Juvencio"
 - git config --global user.email "mj_maia@yahoo.com.br"
