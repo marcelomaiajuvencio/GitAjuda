@@ -20,4 +20,5 @@ git push (envia para repositorio remoto)
 git pull (traz alterações do diretório remoto para o local)
 git branch (lista branch)
 git branch nomeDaBranch (cria branch)
+git checkout -b nomeDaBranch (cria branch e muda pra branch criada)
 
