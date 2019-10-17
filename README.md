@@ -31,6 +31,7 @@
 - git tag -a v1.0 -m "primeira tag" (cria tag v1.0)
 - git tag (lista tag)
 - git push origin v1.0 (envia tag v1.0 para o repositório remoto)
+- git commit --amend -m "Nova mensagem" [corrigir mensagem de commit antes do push]
 
 
 
