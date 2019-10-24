@@ -4,6 +4,10 @@
 
 - git config --global user.name "Marcelo Maia Juvencio"
 - git config --global user.email "mj_maia@yahoo.com.br"
+- git config --global --add merge.tool kdiff3
+- git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3.exe"
+- git config --global --add mergetool.kdiff3.trustExitCode false
+- git config --global --list
 - git config -l [lista configurações]
 - git init
 - git status
@@ -32,9 +36,3 @@
 - git tag (lista tag)
 - git push origin v1.0 (envia tag v1.0 para o repositório remoto)
 - git commit --amend -m "Nova mensagem" [corrigir mensagem do último commit antes do push]
-- git config --global --add merge.tool kdiff3
-- git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3.exe"
-- git config --global --add mergetool.kdiff3.trustExitCode false
-- git config --global --list
-
-
