@@ -36,3 +36,4 @@
 - git tag (lista tag)
 - git push origin v1.0 (envia tag v1.0 para o repositório remoto)
 - git commit --amend -m "Nova mensagem" [corrigir mensagem do último commit antes do push]
+- git mergetool [faz merge com a ferramenta configurada em merge.tool]
