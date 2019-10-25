@@ -7,7 +7,7 @@
 - git config --global --add merge.tool kdiff3
 - git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3.exe"
 - git config --global --add mergetool.kdiff3.trustExitCode false
-- git config --global --list
+- git config --global --list [lista configurações que são global]
 - git config -l [lista configurações]
 - git init
 - git status
