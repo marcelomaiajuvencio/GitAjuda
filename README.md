@@ -38,3 +38,4 @@
 - git commit --amend -m "Nova mensagem" [corrigir mensagem do último commit antes do push]
 - git mergetool [faz merge com a ferramenta configurada em merge.tool]
 - git reset HEAD~1 [volta um commit na linha do tempo, perde o histórico (antes do push)]
+- git cherry-pick --abort [aborta a operação de cherry-pick]
