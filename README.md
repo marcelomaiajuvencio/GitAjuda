@@ -39,3 +39,4 @@
 - git mergetool [faz merge com a ferramenta configurada em merge.tool]
 - git reset HEAD~1 [volta um commit na linha do tempo, perde o histórico (antes do push)]
 - git cherry-pick --abort [aborta a operação de cherry-pick]
+- git cherry-pick afa028d09797339340a56e94059312fb6194f5a2 [cherry-pick do commit afa028... na branch atual]
