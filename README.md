@@ -14,6 +14,7 @@
 - git add nomearquivo
 - git add .
 - git commit -m "primeiro commit"
+- git commit --amend -m "Nova mensagem" [corrigir mensagem do último commit antes do push]
 - git diff
 - git diff --staged
 - git diff --cached
@@ -35,7 +36,6 @@
 - git tag -a v1.0 -m "primeira tag" (cria tag v1.0)
 - git tag (lista tag)
 - git push origin v1.0 (envia tag v1.0 para o repositório remoto)
-- git commit --amend -m "Nova mensagem" [corrigir mensagem do último commit antes do push]
 - git mergetool [faz merge com a ferramenta configurada em merge.tool]
 - git reset HEAD~1 [volta um commit na linha do tempo, perde o histórico (antes do push)]
 - git cherry-pick --abort [aborta a operação de cherry-pick]
