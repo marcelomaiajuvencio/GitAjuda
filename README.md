@@ -46,5 +46,5 @@
 - git reset HEAD~1 [volta um commit na linha do tempo, perde o histórico (antes do push)]
 - git cherry-pick --abort [aborta a operação de cherry-pick]
 - git cherry-pick afa028d09797339340a56e94059312fb6194f5a2 [cherry-pick do commit afa028... na branch atual]
-
+- git merge <nome-da-branch-> (traz alterações de <nome-da-branch> para a branch local - fazer git push para enviar o merge pro remoto)
 
