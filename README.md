@@ -4,15 +4,16 @@
 
 - git config --global user.name "Marcelo Maia Juvencio"
 - git config --global user.email "mj_maia@yahoo.com.br"
-- git config --global --add merge.tool kdiff3
-- git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3.exe"
-- git config --global --add mergetool.kdiff3.trustExitCode false
+- configurar kdiff3
+    - git config --global --add merge.tool kdiff3
+    - git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"
+    - git config --global --add mergetool.kdiff3.trustExitCode false
 - git config --global --list [lista configurações que são global]
 - git config -l [lista configurações]
 - git config --get remote.origin.url [mostra endereço remoto configurado]
 - git config --unset remote.origin.url [remove configuração de endereço remoto]
 - git config --add remote.origin.url http://14733096895@gitlab.prodesp.sp.gov.br/ses/cvs/sivisa.git [adiciona configuração de endereço remoto para o usuário 14733096895]
-- git config --edit [edita arquivo de configuração]
+- git config --global --edit [edita configurações global]
 - git config --global alias.s status [cria alias para status]
 - git config --global --unset alias.s [remove alias s para status]
 - git init
