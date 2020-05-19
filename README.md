@@ -48,4 +48,10 @@
 - git cherry-pick --abort [aborta a operação de cherry-pick]
 - git cherry-pick afa028d09797339340a56e94059312fb6194f5a2 [cherry-pick do commit afa028... na branch atual]
 - git merge \<nome-da-branch> (traz alterações de \<nome-da-branch> para a branch local - fazer git push para enviar o merge pro remoto)
+- renomear branch remoto
+    - renomear branch local (Certifique estar na branch que deseja renomear)
+        - git branch -m novo-nome-da-branch
+    - excluir a branch antiga e inserir a branch nova
+        - git push origin :nome-velho nome-novo
+        - git push origin -u nome-novo
 
