@@ -30,6 +30,7 @@
 - git checkout numeroDoCommit (vai para o commit número nnnnnn - ex.: git checkout df56adf)
 - git checkout master
 - git checkout nomearquivo (arquivo não add - volta arquivo anterior, alterado ou deletado)
+- git restore --staged <arquivo> (arquivo add - volta arquivo anterior)
 - git checkout -b nomeDaBranch (cria branch e muda pra branch criada)
 - git reset --hard (volta pro último commit, arquivos criados, não add, não seram removidos, usar git clean -f)
 - git clean -f (remove arquivo criado, não add)
