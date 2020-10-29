@@ -38,6 +38,8 @@
 - git push origin v1.0 (envia tag v1.0 para o repositório remoto)
 - git push -u origin nomeDaBranch (envia branch local para o repositório remoto)
 - git pull (traz alterações do diretório remoto para o local, se não der certo: git pull origin master)
+    - para git pull dar certo
+        - git branch --set-upstream-to=origin/master master
 - git branch (lista branch)
 - git branch nomeDaBranch (cria branch)
 - git branch -d nomeDaBranch (remove a branch local, sem alterações pendentes)
