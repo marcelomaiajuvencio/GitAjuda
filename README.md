@@ -12,6 +12,7 @@
 - git config -l [lista configurações]
 - git config --get remote.origin.url [mostra endereço remoto configurado]
 - git config --unset remote.origin.url [remove configuração de endereço remoto]
+- git remote rm origin [remove configuração de endereço remoto]
 - git config --add remote.origin.url http://14733096895@gitlab.prodesp.sp.gov.br/ses/cvs/sivisa.git [adiciona configuração de endereço remoto para o usuário 14733096895]
 - git config --global --edit [edita configurações global]
 - git config --global alias.s status [cria alias para status]
