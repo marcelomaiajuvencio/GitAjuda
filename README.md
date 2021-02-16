@@ -58,4 +58,5 @@
     - excluir a branch antiga e inserir a branch nova
         - git push origin :nome-velho nome-novo
         - git push origin -u nome-novo
-
+- git remote add origin  <REMOTE_URL>
+- git remote -v
