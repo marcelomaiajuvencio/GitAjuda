@@ -26,6 +26,7 @@
 - git diff
 - git diff --staged
 - git diff --cached
+- git diff <branch local> origin/<branch remota> (mostra o que tem na local e não tem na remota)
 - git log
 - git log --oneline
 - git checkout numeroDoCommit (vai para o commit número nnnnnn - ex.: git checkout df56adf)
