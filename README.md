@@ -61,3 +61,4 @@
         - git push origin -u nome-novo
 - git remote add origin https://github.com/marcelomaiajuvencio/GitAjuda.git (adiciona endereço remoto)
 - git remote -v (visualiza endereço remoto)
+- git merge --abort (desiste do merge - deu conflito, não quero mais fazr merge)
