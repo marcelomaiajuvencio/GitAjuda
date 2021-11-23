@@ -19,8 +19,8 @@
 - git config --global --unset alias.s [remove alias s para status]
 - git init
 - git status
-- git add nomearquivo
-- git add .
+- git add nomearquivo (gir reset nomearquivo [desfaz o git add nomearquivo])
+- git add . (git reset [desfaz o git add .])
 - git commit -m "primeiro commit"
 - git commit --amend -m "Nova mensagem" [corrigir mensagem do último commit antes do push]
 - git diff
