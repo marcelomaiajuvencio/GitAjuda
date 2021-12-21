@@ -62,5 +62,5 @@
 - git remote add origin https://github.com/marcelomaiajuvencio/GitAjuda.git (adiciona endereço remoto)
 - git remote -v (visualiza endereço remoto)
 - git merge --abort (desiste do merge - deu conflito, não quero mais fazer merge, por exemplo)
-- git config --global alias.s status (crias um alias para status chamado s, assim podemos fazer git s no lugar de git status)
+- git config --global alias.s status (cria um alias para status chamado s, assim podemos fazer git s no lugar de git status)
 - git config --list | findstr alias (lista os alias criados)
