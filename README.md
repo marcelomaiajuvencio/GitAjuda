@@ -64,3 +64,4 @@
 - git merge --abort (desiste do merge - deu conflito, não quero mais fazer merge, por exemplo)
 - git config --global alias.s status (cria um alias para status chamado s, assim podemos fazer git s no lugar de git status)
 - git config --list | findstr alias (lista os alias criados)
+- git push origin --delete nome-da-branch-remoto (remove branch remoto)
