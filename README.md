@@ -66,4 +66,4 @@
 - git config --list | findstr alias (lista os alias criados)
 - git push origin --delete nome-da-branch-remoto (remove branch remoto)
 - git checkout -b Nome_Do_Branch_Local origin/Nome_Do_Branch_Remoto (copia branh remoto para local)
-- git diff <local branch> origin/<remote branch> (compara branch local <local branch> com a branch remota <remote branch>)
+- git diff \<local branch\> origin/\<remote branch\> (compara branch local \<local branch\> com a branch remota \<remote branch\>)
