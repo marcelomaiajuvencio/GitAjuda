@@ -68,6 +68,6 @@
 - git checkout -b Nome_Do_Branch_Local origin/Nome_Do_Branch_Remoto (copia branh remoto para local)
 - git diff \<local branch\> origin/\<remote branch\> (compara branch local \<local branch\> com a branch remota \<remote branch\>)
 - git stash [esconde alterações da branch atual - sem add/sem commit]
-- git stash [list lista alterações escondidas]
+- git stash list [lista alterações escondidas]
 - git stash apply [seleciona alteração mais recente]
 - git stash apply stash@{2} [seleciona alterarões stash@{2}]
