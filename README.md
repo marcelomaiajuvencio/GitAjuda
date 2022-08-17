@@ -53,7 +53,7 @@
 - git cherry-pick --abort [aborta a operação de cherry-pick]
 - git cherry-pick afa028d09797339340a56e94059312fb6194f5a2 [traz o commit afa028... pra branch atual (se der conflito: resolver conflito, add, commit e push, se não, push)]
 - git merge \<nome-da-branch> (traz alterações de \<nome-da-branch> para a branch local - fazer git push para enviar o merge pro remoto)
-- renomear branch remoto
+- Renomear branch remoto
     - renomear branch local (Certifique estar na branch que deseja renomear)
         - git branch -m novo-nome-da-branch
     - excluir a branch antiga e inserir a branch nova
@@ -65,7 +65,9 @@
 - git config --global alias.s status (cria um alias para status chamado s, assim podemos fazer git s no lugar de git status)
 - git config --list | findstr alias (lista os alias criados)
 - git push origin --delete nome-da-branch-remoto (remove branch remoto)
-- git checkout -b Nome_Do_Branch_Local origin/Nome_Do_Branch_Remoto (copia branh remoto para local)
+- Copia branch remoto para local
+    - git fetch origin 
+    - git checkout -b Nome_Do_Branch_Local origin/Nome_Do_Branch_Remoto
 - git diff \<local branch\> origin/\<remote branch\> (compara branch local \<local branch\> com a branch remota \<remote branch\>)
 - git stash [esconde alterações da branch corrente - sem add/sem commit]
 - git stash list [lista alterações escondidas]
