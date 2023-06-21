@@ -73,3 +73,5 @@
 - git stash list [lista alterações escondidas]
 - git stash apply [aplica alterações escondidas mais recentes na branch corrente]
 - git stash apply stash@{2} [seleciona alterarões stash@{2}]
+- git rm -r --cached nome-do-diretorio [Remove o diretório rastreado do histórico do Git - Util quando o gitignore não ignora quando, deveria ignorar ou ignora quando não deveria ignorar. ]
+
