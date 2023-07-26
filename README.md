@@ -69,6 +69,7 @@
     - git fetch origin 
     - git checkout -b Nome_Do_Branch_Local origin/Nome_Do_Branch_Remoto
 - git diff \<local branch\> origin/\<remote branch\> (compara branch local \<local branch\> com a branch remota \<remote branch\>)
+- git push --force -u origin (util quando usamos [git reset --hard HEAD~1] e o local fica desatualizado em relação ao remoto)
 - git stash [esconde alterações da branch corrente - sem add/sem commit]
 - git stash list [lista alterações escondidas]
 - git stash apply [aplica alterações escondidas mais recentes na branch corrente]
